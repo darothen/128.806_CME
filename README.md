@@ -11,12 +11,13 @@ This is a problem set for MIT course 12.806/12.306/10.571, "[Atmospheric Physics
 The writeup can be compiled to LaTeX by running `make`. The python code is self-contained; for instance, the following code block instantiates and runs the model using a pre-packaged, time-varying emissions function:
 
 ```python
+    from integrator import RK4
     from carbon_model import CarbonModel, emissions_22p6
 
     y0 = np.array([612, 730, 140, 37000, 580, 1500, 5300, 1.0])
     emis_func = lambda t: emissions_22p6(t, 100.)
     model = CarbonModel(*y0, emis_func=emis_func)
 
-    o = model.integrate(odeint, 140.)
+    o = model.integrate(RK4, 150.)
     o.atm_ppm.plot()
 ```
