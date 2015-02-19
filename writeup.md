@@ -60,11 +60,11 @@ Please refer to Chapter 22, Section 22.2.2 - "Compartmental Model of the Global 
 \toprule
  & \multicolumn{3}{c}{\textbf{Parameters}} \\ \cmidrule{2-4}
 \textbf{Governing Equations} & \textbf{Symbol} & \textbf{Value} & \textbf{Units} \\ \toprule
-$\frac{dM_1}{dt} = -(k_{12}+k_{13}M_1 - k_{15}G\frac{M_1 - \gamma}{M_1 + \Gamma} +k_{21}M_2^{\beta_2}$ & $k_{12}$ & 0.0931 & yr$^{-1}$ \\
+$\frac{dM_1}{dt} = -(k_{12}+k_{13})M_1 - k_{15}G\frac{M_1 - \gamma}{M_1 + \Gamma} +k_{21}M_2^{\beta_2}$ & $k_{12}$ & 0.0931 & yr$^{-1}$ \\
 $+ k_{31}M_3^{\beta_3} + k_{51}M_5 + k_{61}M_6 + F_f(t) + F_d(t) - F_r(t)$ & $k_{13}$ & 0.0311 & yr$^{-1}$ \\
-$\frac{dM_2}{dt} = k_{12}M_1 - (k_{23} + k_{24}M_2 - k_{21}M_2^{\beta_2} + k_{42}M_4$ & $k_{15}$ & 147 & yr$^{-1}$ \\
+$\frac{dM_2}{dt} = k_{12}M_1 - (k_{23} + k_{24})M_2 - k_{21}M_2^{\beta_2} + k_{42}M_4$ & $k_{15}$ & 147 & yr$^{-1}$ \\
 $\frac{dM_3}{dt} = k_{13}M_1 + k_{23}M_2 - k_{34}M_3 - k_{31}M_3^{\beta_3} + k_{43}M_4$ & $k_{21}$ & 58$\times$ 730$^{-\beta_2}$ & PgC$^{(1-\beta_2)}$yr$^{-1}$ \\
-$\frac{dM_4}{dt} = k_{24}M_2 + k_{34}M_3 - (k_{42} + k_{43}M_4$ & $k_{23}$ & 0.0781 & \multicolumn{1}{c}{yr$^{-1}$} \\
+$\frac{dM_4}{dt} = k_{24}M_2 + k_{34}M_3 - (k_{42} + k_{43})M_4$ & $k_{23}$ & 0.0781 & \multicolumn{1}{c}{yr$^{-1}$} \\
 $\frac{dM_5}{dt} = k_{15}G\frac{M_1 - \gamma}{M_1 + \Gamma} - (k_{51} + k_{56})M_5 - F_d(t) + F_r(t)$ & $k_{24}$ & 0.0164 & yr$^{-1}$ \\
 $\frac{dM_6}{dt} = k_{56}M_5 - k_{61}M_6$ & $k_{31}$ & 18$\times$ 140$^{-\beta_3}$ & PgC$^{(1-\beta_3)}$yr$^{-1}$ \\
 $\frac{dM_7}{dt} = -F_f(t)$ & $k_{34}$ & 0.714 & yr$^{-1}$ \\
