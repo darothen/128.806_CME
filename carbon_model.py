@@ -148,7 +148,6 @@ class CarbonModel(object):
 
         return self._output(t, y, t_offset)
 
-
 ## Boundary conditions
 def emissions_22p6(t, switch=100.):
     """ Return 3 values, corresponding to fluxes F_r, F_d, and F_f 
@@ -162,15 +161,3 @@ def emissions_22p6(t, switch=100.):
     F_f = 0.014*t if t <= switch else 1.4 + (4.6/40.)*(t - 100.)
     
     return F_r, F_d, F_f
-
-def emissions_22p7(t):
-    """ Similar to above, except for the emissions scenario in problem
-    22.7, which has a baseline reference year of 2010
-    """
-
-    F_r = 0.
-    F_d = 1.8 + 0.01*t
-    F_f = 6. + (4.6/40)*t
-
-    return F_r, F_d, F_f
-    

@@ -1,0 +1,4 @@
+#pandoc -s -S --latex-engine=xelatex --template=latex.template -f markdown+mmd_title_block hudson2014 -o hudson2014.pdf
+
+pandoc -s -S  --template=latex.template --number-sections -o writeup.tex writeup.md
+latexmk -xelatex -use-make writeup.tex

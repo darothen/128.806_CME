@@ -110,7 +110,7 @@ Before implementing the model, answer the following questions:
 
 We can now implement the model. Many systems of time-dependent, coupled ordinary differential equations which appear in the physical sciences can be represented as a simple initial value problem of the form 
 \begin{align}
-    \dot{\mathbf{y}}(t) = f(t, \dot{\mathbf{y}}(t)),\qquad\mathbf{y}(t_0) = \mathbf{y}_0 \label{eq:ode_def}
+    \dot{\mathbf{y}}(t) = f(t, \mathbf{y}(t)),\qquad\mathbf{y}(t_0) = \mathbf{y}_0 \label{eq:ode_def}
 \end{align}
 
 where $\mathbf{y}(t)$ is a multi-component state vector representing the physical system, and $\dot{\mathbf{y}} = \frac{d\mathbf{y}}{dt}$ is the vector representing the time derivative of each component of the state vector. 
@@ -160,7 +160,7 @@ In modern practice, these simple methods have been superseded by more-sophistica
 
 2. Run your simulations again with each method, but allow your simulation to run until the concentration of atmospheric CO$_2$ doubles from its pre-industrial value. You can assume a "business-as-usual" scenario where the emissions increase at the same rate beyond 1990 (i.e. 0.01 PgC yr$^{-1}$ and 4.6/40 PgC yr$^{-1}$ for deforestation and fossil fuel burning, respectively) When does this doubling occur?
 
-3. Suppose that in 2050, the world commits to decreasing its carbon dioxide emissions such that the peak value following 2050 decays with an e-folding of 20 years. Write the mathematical form of $F_f(t)$ in this case, extending the definition from the first part of this sub-problem. When will the atmospheric CO$_2$ concentration peak and at what value? When will it return (if ever) to pre-industrial levels?
+3. Suppose that in 2050, the world commits to decreasing its carbon dioxide emissions (both from fossil fuels and deforestation) such that the peak value following 2050 decays with an e-folding of 20 years. Write the mathematical form of $F_f(t)$ and $F_d(t)$ in this case, extending the definition from the first part of this sub-problem. When will the atmospheric CO$_2$ concentration peak and at what value? When will it return (if ever) to pre-industrial levels?
 
 [^CVODE]: [http://robotics.stanford.edu/~scohen/cvode.paper.pdf](http://robotics.stanford.edu/~scohen/cvode.paper.pdf)
 [^LSODA]: [http://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html](http://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html)
