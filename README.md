@@ -21,3 +21,31 @@ The writeup can be compiled to LaTeX by running `make`. The python code is self-
     o = model.integrate(RK4, 150.)
     o.atm_ppm.plot()
 ```
+
+### To build solution:
+
+1. Run the IPython notebook `solution_with_notes.ipynb` to generate static content
+
+2. Generate the basic markdown file from the ipython notebook by running 
+
+```shell
+ipython nbconvert --to markdown solution_with_notes.ipynb
+```
+
+3. Edit the markdown:
+
+    - Replace all the indented code blocks with backtick style Python/shell blocks
+    - Remove superfluous configuration code
+    - Tweak environments so that all the LaTeX is nice
+
+4. Convert the markdown to tex using pandoc via the provided Makefile
+
+```shell
+make pdf
+```
+
+5. Compile using xelatex
+
+```shell
+xelatex -shell-escape solution_with_notes.tex
+```
