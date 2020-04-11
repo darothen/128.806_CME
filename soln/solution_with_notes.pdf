@@ -1,0 +1,489 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 6 0 R /F4 7 0 R /F5 10 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /A << /S /URI /Type /Action /URI (mailto:darothen@mit.edu) >> /Border [ 0 0 0 ] /Rect [ 193.8329 719.0236 276.2429 731.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (http://pandas.pydata.org/) >> /Border [ 0 0 0 ] /Rect [ 85.69291 620.0236 121.6541 632.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+7 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+8 0 obj
+<< /A << /S /URI /Type /Action /URI (http://matplotlib.org) >> /Border [ 0 0 0 ] /Rect [ 85.69291 524.8236 131.2629 536.8236 ] /Subtype /Link /Type /Annot >>
+endobj
+9 0 obj
+<< /A << /S /URI /Type /Action /URI (http://stanford.edu/~mwaskom/software/seaborn/) >> /Border [ 0 0 0 ] /Rect [ 85.69291 506.8236 125.2393 518.8236 ] /Subtype /Link /Type /Annot >>
+endobj
+10 0 obj
+<< /BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font >>
+endobj
+11 0 obj
+<< /A << /S /URI /Type /Action /URI (https://xlrd.readthedocs.io/en/latest/) >> /Border [ 0 0 0 ] /Rect [ 516.4727 384.6236 531.6277 396.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+12 0 obj
+<< /A << /S /URI /Type /Action /URI (ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt) >> /Border [ 0 0 0 ] /Rect [ 219.2929 228.6236 573.2929 240.6236 ] /Subtype /Link /Type /Annot >>
+endobj
+13 0 obj
+<< /Annots [ 4 0 R 5 0 R 8 0 R 9 0 R 11 0 R 12 0 R ] /Contents 21 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 20 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+14 0 obj
+<< /A << /S /URI /Type /Action /URI (http://./) >> /Border [ 0 0 0 ] /Rect [ 219.2929 722.4236 273.2929 734.4236 ] /Subtype /Link /Type /Annot >>
+endobj
+15 0 obj
+<< /Annots [ 14 0 R ] /Contents 22 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 20 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+16 0 obj
+<< /Outlines 18 0 R /PageLabels 23 0 R /PageMode /UseNone /Pages 20 0 R /Type /Catalog >>
+endobj
+17 0 obj
+<< /Author () /CreationDate (D:20170130150148+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170130150148+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Solution - Computational Modeling Exercise) /Trapped /False >>
+endobj
+18 0 obj
+<< /Count 1 /First 19 0 R /Last 19 0 R /Type /Outlines >>
+endobj
+19 0 obj
+<< /Dest [ 13 0 R /XYZ 62.69291 327.4236 0 ] /Parent 18 0 R /Title (Part 1 - Contemporary Trends in Atmospheric CO2) >>
+endobj
+20 0 obj
+<< /Count 2 /Kids [ 13 0 R 15 0 R ] /Type /Pages >>
+endobj
+21 0 obj
+<< /Length 10086 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 25.46488 0 Td (Solution - Computational Modeling Exercise) Tj T* -25.46488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Author ) Tj /F1 10 Tf (- Daniel Rothenberg \() Tj 0 0 .501961 rg (darothen@mit.edu) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 701.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Date ) Tj /F1 10 Tf (- January 30, 2017) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 2.029982 Tw 12 TL /F1 10 Tf 0 0 0 rg (This is a reference solution for the ) Tj /F2 10 Tf (12.806 Computational Modeling Exercise) Tj /F1 10 Tf (, including versions of) Tj T* 0 Tw .32561 Tw (required and suggested figures for reference and all code used to produce the solution. This solution was) Tj T* 0 Tw (implemented in Python using wildly-popular scientific and numerical libraries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For convenience, we'll use two very powerful Python libraries:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .381235 Tw 12 TL /F1 10 Tf 0 0 .501961 rg (pandas ) Tj 0 0 0 rg (- an analysis package based on data tables; allows you to quickly organize tabular data and) Tj T* 0 Tw (run common statistics and analysis on them.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+Q
+q
+1 0 0 1 62.69291 565.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 96 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 84 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 12 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (numpy) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (np) Tj /F4 10 Tf 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (pandas) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (pd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 545.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Additionally, we'll need to generate some plots, so we'll use the standard Python visualization libraries:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+Q
+q
+1 0 0 1 62.69291 527.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (matplotlib ) Tj 0 0 0 rg (- Matlab-like visualization library) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 521.8236 cm
+Q
+q
+1 0 0 1 62.69291 485.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .636412 Tw 12 TL /F1 10 Tf 0 0 .501961 rg (seaborn ) Tj 0 0 0 rg (- extension to matplotlib which generates quick statistical plots when data is packaged into) Tj T* 0 Tw 1.064524 Tw (pandas data structures; additionally includes aesthetic tweaks which greatly improve the matplotlib) Tj T* 0 Tw (basics) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 485.8236 cm
+Q
+q
+1 0 0 1 62.69291 404.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 48 60 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 36 102 12 re f*
+.960784 .960784 .862745 rg
+n 150 36 12 12 re f*
+.960784 .960784 .862745 rg
+n 168 36 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 36 12 re f*
+.960784 .960784 .862745 rg
+n 42 24 42 12 re f*
+.960784 .960784 .862745 rg
+n 90 24 12 12 re f*
+.960784 .960784 .862745 rg
+n 108 24 18 12 re f*
+.960784 .960784 .862745 rg
+n 0 12 156 12 re f*
+.960784 .960784 .862745 rg
+n 0 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 18 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 24 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 54 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 78 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 90 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 192 0 84 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 12 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F4 10 Tf .4 .4 .4 rg (%) Tj 0 0 0 rg (matplotlib) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (inline) Tj 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (matplotlib.pyplot) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (plt) Tj /F4 10 Tf 0 0 0 rg  T* /F3 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (seaborn) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F3 10 Tf 0 0 1 rg (sns) Tj /F4 10 Tf 0 0 0 rg  T* /F5 10 Tf .25098 .501961 .501961 rg (# Set some plot aesthetics) Tj /F4 10 Tf 0 0 0 rg  T* 0 0 0 rg (plt) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (style) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (use) Tj 0 0 0 rg (\([) Tj .729412 .129412 .129412 rg ('seaborn-ticks') Tj 0 0 0 rg (,) Tj 0 0 0 rg ( ) Tj .729412 .129412 .129412 rg ('seaborn-talk') Tj 0 0 0 rg (]\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 372.6236 cm
+q
+BT 1 0 0 1 0 14 Tm .954987 Tw 12 TL /F1 10 Tf 0 0 0 rg (Finally, to read the Excel spreadsheet data source in the final part of this notebook, you'll need the ) Tj 0 0 .501961 rg (xlrd) Tj  T* 0 Tw 0 0 0 rg (package, which you can install by invoking:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL ($ pip install xlrd) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 306.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Part 1 - Contemporary Trends in Atmospheric CO) Tj /F2 15.5 Tf -8.75 Ts (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 288.4236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (We'll start by downloading the monthly mean CO) Tj /F1 8 Tf -5 Ts (2 ) Tj /F1 10 Tf 0 Ts (data, using a shell command in the cell below.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 6 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 36 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 54 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 60 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 72 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 96 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 126 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 24 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 162 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 180 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 186 0 48 12 re f*
+.960784 .960784 .862745 rg
+n 234 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 276 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 282 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 300 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 306 0 60 12 re f*
+.960784 .960784 .862745 rg
+n 366 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 372 0 18 12 re f*
+.960784 .960784 .862745 rg
+n 396 0 6 12 re f*
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (!) Tj 0 0 0 rg (wget) Tj 0 0 0 rg ( ) Tj 0 0 0 rg (ftp) Tj 0 0 0 rg (:) Tj .4 .4 .4 rg (//) Tj 0 0 0 rg (aftp) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (cmdl) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (noaa) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (gov) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (products) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (trends) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (co2) Tj .4 .4 .4 rg (/) Tj 0 0 0 rg (co2_mm_mlo) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (txt) Tj 0 0 0 rg ( ) Tj .4 .4 .4 rg (.) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 78.02362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 516 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F4 10 Tf 0 0 0 rg (--2017-01-30 14:27:52--  ) Tj 0 0 .501961 rg (ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt) Tj 0 0 0 rg  T* (           =) Tj (>) Tj ( \221co2_mm_mlo.txt\222) Tj T* (Resolving aftp.cmdl.noaa.gov... 140.172.200.31) Tj T* (Connecting to aftp.cmdl.noaa.gov|140.172.200.31|:21... connected.) Tj T* (Logging in as anonymous ... Logged in!) Tj T* (==) Tj (>) Tj ( SYST ... done.    ==) Tj (>) Tj ( PWD ... done.) Tj T* (==) Tj (>) Tj ( TYPE I ... done.  ==) Tj (>) Tj ( CWD \(1\) /products/trends/co2 ... done.) Tj T* (==) Tj (>) Tj ( SIZE co2_mm_mlo.txt ... 49083) Tj T* (==) Tj (>) Tj ( PASV ... done.    ==) Tj (>) Tj ( RETR co2_mm_mlo.txt ... done.) Tj T* (Length: 49083 \(48K\) \(unauthoritative\)) Tj T*  T* (100%[======================================) Tj (>) Tj (] 49,083       223KB/s   in 0.2s) Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+22 0 obj
+<< /Length 705 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 655.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F4 10 Tf 0 0 0 rg (2017-01-30 14:27:54 \(223 KB/s\) - \221co2_mm_mlo.txt\222 saved [49083]) Tj T*  T* (--2017-01-30 14:27:54--  ) Tj 0 0 .501961 rg (http://./) Tj 0 0 0 rg  T* (Resolving .... failed: nodename nor servname provided, or not known.) Tj T* (wget: unable to resolve host address \221.\222) Tj T* (FINISHED --2017-01-30 14:27:54--) Tj T* (Total wall clock time: 2.6s) Tj T* (Downloaded: 1 files, 48K in 0.2s \(223 KB/s\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+23 0 obj
+<< /Nums [ 0 24 0 R 1 25 0 R ] >>
+endobj
+24 0 obj
+<< /S /D /St 1 >>
+endobj
+25 0 obj
+<< /S /D /St 2 >>
+endobj
+xref
+0 26
+0000000000 65535 f
+0000000075 00000 n
+0000000150 00000 n
+0000000260 00000 n
+0000000375 00000 n
+0000000553 00000 n
+0000000733 00000 n
+0000000846 00000 n
+0000000954 00000 n
+0000001130 00000 n
+0000001331 00000 n
+0000001448 00000 n
+0000001642 00000 n
+0000001857 00000 n
+0000002117 00000 n
+0000002282 00000 n
+0000002511 00000 n
+0000002620 00000 n
+0000002924 00000 n
+0000003001 00000 n
+0000003140 00000 n
+0000003211 00000 n
+0000013355 00000 n
+0000014116 00000 n
+0000014169 00000 n
+0000014206 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\007\333\364\177LH\213\302,\310F7z\311X\315) (\007\333\364\177LH\213\302,\310F7z\311X\315)]
+ /Info 17 0 R /Root 16 0 R /Size 26 >>
+startxref
+14243
+%%EOF

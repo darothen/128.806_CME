@@ -3,13 +3,10 @@
 Author: Daniel Rothenberg <darothen@mit.edu>
 Version: February 13, 2015
 
-
 """
 
 import abc
 import numpy as np
-
-from scipy.optimize import minimize
 
 class Integrator:
     """ This is an abstract class providing a template for 
@@ -24,17 +21,14 @@ class Integrator:
 
     __metaclass__ = abc.ABCMeta
     
-    #def __init__(self, func, y0, t):
-    #    return self.integrate(func, y0, t)
-    
     @staticmethod
     @abc.abstractmethod
     def integrate(self, func, y0, t):
         """Performs the integration"""
         
     def __call__(self, func, y0, t):
-        return self.integrate(func, y0, t)
-        
+        return self.integrate(func, y0, t)        
+
 class EulerIntegrator(Integrator):
     
     def integrate(self, func, y0, t):
@@ -45,31 +39,6 @@ class EulerIntegrator(Integrator):
             new_y = y + delta_t*func(y, ti)
             out_y.append(new_y)
         return np.array(out_y)
-
-class BackwardEulerIntegrator(Integrator):
-
-    def integrate(self, func, y0, t,
-                  max_iter=100, err_iter=1e-6):
-        pass
-        # out_y = [np.asarray(y0), ]
-        # neq = len(y0)
-
-        # for i, ti in enumerate(t[:-1]):
-        #     y = out_y[-1]
-        #     delta_t = t[i+1] - ti
-
-        #     # Take an Euler Forward step for an initial guess
-        #     yp = y + delta_t*func(y, ti)
-        #     while i < max_iter and err > err_iter:
-        #         # SECANT METHOD
-        #         y_new = yp -
-
-        #         err = np.abs(y_new - yp).max()
-        #         yp = y_new[:]
-        #         i += 1
-            
-        #     out_y.append(new_y)
-        # return np.array(out_y)
     
 class HeunIntegrator(Integrator):
     
